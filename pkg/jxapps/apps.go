@@ -31,6 +31,8 @@ type AppConfig struct {
 	Repositories []helmfile.RepositorySpec `json:"repositories,omitempty"`
 	// DefaultNamespace the default namespace to install applications into
 	DefaultNamespace string `json:"defaultNamespace,omitempty"`
+	// Values common values files to be used for all charts
+	Values []string `json:"values,omitempty"`
 }
 
 // App is the configuration of an app used during boot for helmfile / helm 3
