@@ -34,3 +34,12 @@ func TestGoodPhase(t *testing.T) {
 	assert.Equal(t, "external-dns", apps.Apps[1].Name)
 	assert.Equal(t, jxapps.PhaseApps, apps.Apps[1].Phase)
 }
+
+func TestGoodPhaseLegacy(t *testing.T) {
+	apps, _, err := jxapps.LoadAppConfig(path.Join("test_data", "jx-apps-phase-good-legacy"))
+	assert.NoError(t, err)
+	assert.Equal(t, "velero", apps.Apps[0].Name)
+	assert.Equal(t, jxapps.PhaseSystem, apps.Apps[0].Phase)
+	assert.Equal(t, "external-dns", apps.Apps[1].Name)
+	assert.Equal(t, jxapps.PhaseApps, apps.Apps[1].Phase)
+}

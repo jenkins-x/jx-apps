@@ -13,7 +13,9 @@ import (
 
 const (
 	// AppConfigFileName is the name of the applications configuration file
-	AppConfigFileName = "jx-apps.yml"
+	AppConfigFileName = "jx-apps.yaml"
+	// AppConfigAlternateFileName is the name of the applications configuration file
+	AppConfigAlternateFileName = "jx-apps.yml"
 	// PhaseSystem is installed before the apps phase
 	PhaseSystem Phase = "system"
 	// PhaseApps is installed after the system phase
@@ -79,14 +81,22 @@ type Phase string
 // if there is not a file called `jx-apps.yml` in the given dir we will scan up the parent
 // directories looking for the requirements file as we often run 'jx' steps in sub directories.
 func LoadAppConfig(dir string) (*AppConfig, string, error) {
-	fileName := AppConfigFileName
-	if dir != "" {
-		fileName = filepath.Join(dir, fileName)
-	}
+	exists := false
 
-	exists, err := files.FileExists(fileName)
-	if err != nil {
-		return nil, fileName, errors.Errorf("error looking up %s in directory %s", fileName, dir)
+	fileName := ""
+	var err error
+	for _, f := range []string{AppConfigFileName, AppConfigAlternateFileName} {
+		fileName = f
+		if dir != "" {
+			fileName = filepath.Join(dir, fileName)
+		}
+		exists, err = files.FileExists(fileName)
+		if err != nil {
+			return nil, fileName, errors.Errorf("error looking up %s in directory %s", fileName, dir)
+		}
+		if exists {
+			break
+		}
 	}
 
 	config := &AppConfig{}
