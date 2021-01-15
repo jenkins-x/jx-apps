@@ -1,13 +1,20 @@
 module github.com/jenkins-x/jx-apps
 
 require (
-	github.com/jenkins-x/jx-helpers v1.0.9
-	github.com/jenkins-x/jx-logging v0.0.10
-	github.com/jenkins-x/jx/v2 v2.1.90
+	code.gitea.io/sdk/gitea v0.13.0 // indirect
+	github.com/TV4/logrus-stackdriver-formatter v0.1.0 // indirect
+	github.com/deckarep/golang-set v0.0.0-20171013212420-1d4478f51bed // indirect
+	github.com/frankban/quicktest v1.11.3 // indirect
+	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/jenkins-x/jx-helpers v1.0.88
+	github.com/jenkins-x/jx/v2 v2.1.155
+	github.com/jenkins-x/lighthouse-config v0.0.10 // indirect
+	github.com/knative/build v0.2.0 // indirect
+	github.com/knative/pkg v0.0.0-20181205230426-0e41760cea1d // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.6.0
-	gopkg.in/AlecAivazis/survey.v1 v1.8.3
-	k8s.io/helm v2.7.2+incompatible
+	github.com/qor/inflection v0.0.0-20180308033659-04140366298a // indirect
+	github.com/stretchr/testify v1.6.1
 	sigs.k8s.io/yaml v1.2.0
 
 )
