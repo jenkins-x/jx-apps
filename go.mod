@@ -6,11 +6,11 @@ require (
 	github.com/frankban/quicktest v1.11.3 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
-	github.com/jenkins-x/go-scm v1.5.209 // indirect
+	github.com/jenkins-x/go-scm v1.5.211 // indirect
 	github.com/jenkins-x/jx-api v0.0.24 // indirect
 	github.com/jenkins-x/jx-helpers v1.0.88
 	github.com/jenkins-x/jx/v2 v2.1.155
-	github.com/jenkins-x/lighthouse v0.0.907 // indirect
+	github.com/jenkins-x/lighthouse v0.0.908 // indirect
 	github.com/jenkins-x/lighthouse-config v0.0.10 // indirect
 	github.com/knative/build v0.2.0 // indirect
 	github.com/knative/pkg v0.0.0-20181205230426-0e41760cea1d // indirect

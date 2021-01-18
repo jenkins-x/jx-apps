@@ -886,6 +886,9 @@ github.com/jenkins-x/go-scm v1.5.159/go.mod h1:Gt1dJz1rH47GbMlL47mWkibKHAM5+htwz
 github.com/jenkins-x/go-scm v1.5.164/go.mod h1:wJgj7PfgsCs+YAXC0vEj43g48HKf94apSyza62ADxKY=
 github.com/jenkins-x/go-scm v1.5.209 h1:Me6lEJ7TmAYf26qwLRUJVP6Mt+92AAwmJWQ5ztHzcVE=
 github.com/jenkins-x/go-scm v1.5.209/go.mod h1:pTp8HHrCEVGs24H/8Cy+X/CDXFlKv9VC6zmrXBYNkfE=
+github.com/jenkins-x/go-scm v1.5.210/go.mod h1:Iuk0V0mt0QGIt50TZyChHqRIiXTnp1ink9RyNoe7o7c=
+github.com/jenkins-x/go-scm v1.5.211 h1:I7Wpo0mXZ1Gok/sbWaxDjhM3HkqnGCN9Z8KQKmkl9wE=
+github.com/jenkins-x/go-scm v1.5.211/go.mod h1:Iuk0V0mt0QGIt50TZyChHqRIiXTnp1ink9RyNoe7o7c=
 github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314/go.mod h1:C6j5HgwlHGjRU27W4XCs6jXksqYFo8OdBu+p44jqQeM=
 github.com/jenkins-x/jx-api v0.0.13/go.mod h1:/TyG05VMeX2hydFPHh6nDfPPXTBCQaFCuet/pdPvjUA=
 github.com/jenkins-x/jx-api v0.0.17 h1:DXfR76lH3s7K2CaSJBzq/S7zRtKFfbKpnNyY4n8plUQ=
@@ -908,6 +911,8 @@ github.com/jenkins-x/jx/v2 v2.1.155/go.mod h1:SpF+A1c1PnlheldpMRhsEmEEW24ftZ1MN7
 github.com/jenkins-x/lighthouse v0.0.783/go.mod h1:YQrNm8iYd2CbYKEw/uuN2O4xHp19xMSRnl4rRVOf4vc=
 github.com/jenkins-x/lighthouse v0.0.907 h1:nCIaj1+ha+SQwTZHNc07VeXF6upSFNGRjNJ6MEgDvc4=
 github.com/jenkins-x/lighthouse v0.0.907/go.mod h1:prVMqvrE328izXLmSG09Cnlg/Ukn04PdNs3Xh2pRqjE=
+github.com/jenkins-x/lighthouse v0.0.908 h1:jbZgtxVnCEXPdLos8RNp5BNEO8lwh7gGth4BUgrNR6Q=
+github.com/jenkins-x/lighthouse v0.0.908/go.mod h1:M1+Bzp7W0Q2vSAQ/3Hf3GuVrzvOJFHAII8UgTsfqm9k=
 github.com/jenkins-x/lighthouse-config v0.0.6/go.mod h1:5ax5UF79SGM+Xc3HrWR/9LsPQBWDxE+TEJMwPAikst8=
 github.com/jenkins-x/lighthouse-config v0.0.10 h1:wwbUeMYBAikpEtLTsSAB8/pHVIiiyieUnNmp0NbH+Q8=
 github.com/jenkins-x/lighthouse-config v0.0.10/go.mod h1:yG86b4t5H/Auif/mIiUf4C35wuI8LnjivjWTVUUbYIs=
